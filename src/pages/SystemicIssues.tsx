@@ -1,4 +1,5 @@
 
+
 import { useNavigate } from 'react-router-dom';
 
 const SystemicIssues = () => {
@@ -59,12 +60,12 @@ const SystemicIssues = () => {
           <div className="grid grid-cols-1 gap-4 sm:gap-6 mb-6 sm:mb-8">
             {issues.map((issue, index) => (
               <div key={index} className="bg-white border-2 border-gray-200 rounded-lg sm:rounded-xl p-4 sm:p-6 hover:border-blue-400 hover:shadow-lg transition-all duration-300 active:bg-gray-50">
-                <div className="flex items-start gap-3 sm:gap-4">
-                  <div className="text-3xl sm:text-4xl flex-shrink-0 mt-1">{issue.icon}</div>
-                  <div className="flex-1 min-w-0">
-                    <h3 className="text-lg sm:text-xl font-semibold text-slate-800 mb-2 sm:mb-3 leading-tight">{issue.title}</h3>
-                    <p className="text-sm sm:text-base text-gray-700 leading-relaxed">{issue.description}</p>
-                  </div>
+                <div className="text-center mb-3 sm:mb-4">
+                  <div className="text-4xl sm:text-5xl mb-2">{issue.icon}</div>
+                </div>
+                <div className="text-center sm:text-left">
+                  <h3 className="text-lg sm:text-xl font-semibold text-slate-800 mb-2 sm:mb-3 leading-tight">{issue.title}</h3>
+                  <p className="text-sm sm:text-base text-gray-700 leading-relaxed">{issue.description}</p>
                 </div>
               </div>
             ))}
@@ -85,3 +86,4 @@ const SystemicIssues = () => {
 };
 
 export default SystemicIssues;
+
