@@ -1,3 +1,4 @@
+
 import { useNavigate } from 'react-router-dom';
 
 const SystemicIssues = () => {
@@ -47,22 +48,22 @@ const SystemicIssues = () => {
   ];
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-blue-500 to-purple-600 p-5">
-      <div className="max-w-6xl mx-auto bg-white rounded-2xl shadow-2xl overflow-hidden">
-        <div className="bg-gradient-to-r from-slate-800 to-slate-700 text-white p-8 text-center">
-          <h1 className="text-4xl font-light mb-2">⚖️ Systemic Issues in Section 15 Preliminary Assessment</h1>
-          <p className="text-lg opacity-90 italic">Critical Problems with the Current System</p>
+    <div className="min-h-screen bg-gradient-to-br from-blue-500 to-purple-600 p-3 sm:p-5">
+      <div className="max-w-6xl mx-auto bg-white rounded-xl sm:rounded-2xl shadow-2xl overflow-hidden">
+        <div className="bg-gradient-to-r from-slate-800 to-slate-700 text-white p-4 sm:p-8 text-center">
+          <h1 className="text-2xl sm:text-4xl font-light mb-2">⚖️ Systemic Issues in Section 15 Preliminary Assessment</h1>
+          <p className="text-base sm:text-lg opacity-90 italic">Critical Problems with the Current System</p>
         </div>
 
-        <div className="p-10">
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
+        <div className="p-4 sm:p-10">
+          <div className="grid grid-cols-1 gap-4 sm:gap-6 mb-6 sm:mb-8">
             {issues.map((issue, index) => (
-              <div key={index} className="bg-white border-2 border-gray-200 rounded-xl p-6 hover:border-blue-400 hover:shadow-lg transition-all duration-300 transform hover:-translate-y-1">
-                <div className="flex items-start gap-4">
-                  <div className="text-4xl flex-shrink-0 mt-1">{issue.icon}</div>
-                  <div className="flex-1">
-                    <h3 className="text-xl font-semibold text-slate-800 mb-3 leading-tight">{issue.title}</h3>
-                    <p className="text-gray-700 leading-relaxed">{issue.description}</p>
+              <div key={index} className="bg-white border-2 border-gray-200 rounded-lg sm:rounded-xl p-4 sm:p-6 hover:border-blue-400 hover:shadow-lg transition-all duration-300 active:bg-gray-50">
+                <div className="flex items-start gap-3 sm:gap-4">
+                  <div className="text-3xl sm:text-4xl flex-shrink-0 mt-1">{issue.icon}</div>
+                  <div className="flex-1 min-w-0">
+                    <h3 className="text-lg sm:text-xl font-semibold text-slate-800 mb-2 sm:mb-3 leading-tight">{issue.title}</h3>
+                    <p className="text-sm sm:text-base text-gray-700 leading-relaxed">{issue.description}</p>
                   </div>
                 </div>
               </div>
@@ -72,7 +73,7 @@ const SystemicIssues = () => {
           <div className="flex justify-center">
             <button 
               onClick={() => navigate('/results')}
-              className="px-8 py-3 bg-gradient-to-r from-blue-500 to-blue-600 text-white rounded-full hover:shadow-lg transform hover:-translate-y-1 transition-all duration-300 uppercase tracking-wider font-medium"
+              className="w-full sm:w-auto px-6 sm:px-8 py-4 sm:py-3 bg-gradient-to-r from-blue-500 to-blue-600 text-white rounded-full hover:shadow-lg active:bg-blue-700 transition-all duration-300 uppercase tracking-wider font-medium text-sm sm:text-base touch-manipulation"
             >
               ← Back to Results
             </button>
