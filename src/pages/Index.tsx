@@ -68,7 +68,7 @@ const Index = () => {
             <div style={{ background: 'linear-gradient(135deg, #667eea, #764ba2)', borderRadius: '15px', padding: '25px', color: 'white', textAlign: 'center' }}>
               <div style={{ fontSize: '3em', marginBottom: '10px' }}>🚔</div>
               <div style={{ fontSize: '1.1em', fontWeight: 600, marginBottom: '10px' }}>Police Complaints Filed</div>
-              <div style={{ fontSize: '0.9em', opacity: 0.9 }}>• Kidnapping<br />• POCSO Act<br />• Child Marriage Act</div>
+              <div style={{ fontSize: '0.9em', opacity: 0.9 }}>• Kidnapping<br />• POCSO Act<br />• Child Marriage</div>
             </div>
             <div style={{ background: 'linear-gradient(135deg, #f093fb, #f5576c)', borderRadius: '15px', padding: '25px', color: 'white', textAlign: 'center' }}>
               <div style={{ fontSize: '3em', marginBottom: '10px' }}>🏢</div>
@@ -98,7 +98,7 @@ const Index = () => {
       <div className="max-w-4xl mx-auto bg-white rounded-2xl shadow-2xl overflow-hidden">
         <div className="bg-gradient-to-r from-slate-800 to-slate-700 text-white p-8 text-center">
           <h1 className="text-4xl font-light mb-2">Juvenile Justice Interactive Scenario</h1>
-          <p className="text-lg opacity-90 italic">An Educational Simulation About Preliminary Assessment Under Section 15 of the JJ Act</p>
+          <p className="text-lg opacity-90 italic">An Educational Simulation About Preliminary Assessment Under Section 15 of the JJ Act by Enfold Proactive Health Trust</p>
         </div>
 
         <div className="p-10">

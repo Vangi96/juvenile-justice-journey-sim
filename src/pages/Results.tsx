@@ -1,4 +1,3 @@
-
 import { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 
@@ -23,7 +22,7 @@ const Results = () => {
       <div className="max-w-4xl mx-auto bg-white rounded-2xl shadow-2xl overflow-hidden">
         <div className="bg-gradient-to-r from-slate-800 to-slate-700 text-white p-8 text-center">
           <h1 className="text-4xl font-light mb-2">Juvenile Justice Interactive Scenario</h1>
-          <p className="text-lg opacity-90 italic">Assessment Results</p>
+          <p className="text-lg opacity-90 italic">Assessment Results by Enfold Proactive Health Trust</p>
         </div>
 
         <div className="p-10">
@@ -32,7 +31,7 @@ const Results = () => {
           </div>
 
           <div className="bg-blue-50 border-2 border-blue-200 rounded-xl p-5 mb-8 text-blue-900">
-            <p className="text-lg leading-relaxed"><strong>This simulation is based on Enfold's observation of the cases of Heinous Offences of CICLs who underwent a Preliminary Assessment.</strong> This case depicts only a certain type of case scenario, and does not cover all types of scenarios or questions asked. There are wide variations based on the district, resources and the type of case. The exercise also highlights how the Preliminary Assessment (PA) process is heavily shaped by the subjective judgments of the JJBs. It raises a broader concern as to whether it is even possible to develop an objective and reliable method to decide on the transfer or retention of the CICL. Given that this decision has grave consequences for the CICL, this subjectivity can be detrimental to the CICL's future.</p>
+            <p className="text-lg leading-relaxed"><strong>This simulation is based on Enfold's analysis of the cases of Heinous Offences of CICLs who underwent a Preliminary Assessment.</strong> This case depicts only a certain type of case scenario, and does not cover all types of scenarios or questions asked. There are wide variations based on the district, resources and the type of case. The exercise also highlights how the Preliminary Assessment (PA) process is heavily shaped by the subjective judgments of the JJBs. It raises a broader concern as to whether it is even possible to develop an objective and reliable method to decide on the transfer or retention of the CICL. Given that this decision has grave consequences for the CICL, this subjectivity can be detrimental to the CICL's future.</p>
           </div>
 
           <div className={`rounded-xl p-8 text-white text-center mb-8 shadow-xl ${isRetained ? 'bg-gradient-to-r from-green-600 to-green-700' : 'bg-gradient-to-r from-red-500 to-red-600'}`}>

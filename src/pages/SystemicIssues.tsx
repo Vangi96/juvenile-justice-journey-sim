@@ -1,5 +1,3 @@
-
-
 import { useNavigate } from 'react-router-dom';
 
 const SystemicIssues = () => {
@@ -23,7 +21,7 @@ const SystemicIssues = () => {
     },
     {
       title: "State-Wise Variation in Transfer Rates",
-      description: "Transfer rates differ by states, with some states having a transfer rate of as high as 85% while some states have a lower rate of transfer with high variability in decision making around Preliminary Assessment.",
+      description: "Transfer rates differ by states, with transfer being the default option in some States, while it is an exception in some states, indicating high subjectivity and variability in decision-making.",
       icon: "📊"
     },
     {
@@ -38,7 +36,7 @@ const SystemicIssues = () => {
     },
     {
       title: "Mental Assistance Often Not Sought",
-      description: "The Supreme Court in Barun Chandra Thakur v. Master Bholu made expert assistance mandatory for JJBs lacking child psychology professionals, but such assistance is often not sought. In many districts, such experts are not available or are not aware of what is expected from them under the JJ Act.",
+      description: "The Supreme Court in Barun Chandra Thakur v. Master Bholu (2022 SCC OnLine SC 870) made expert assistance mandatory for JJBs lacking child psychology professionals, but such assistance is often not sought. In many districts, such experts are not available or are not aware of what is expected from them under the JJ Act.",
       icon: "🧠"
     },
     {
@@ -86,4 +84,3 @@ const SystemicIssues = () => {
 };
 
 export default SystemicIssues;
-
