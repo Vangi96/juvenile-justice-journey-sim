@@ -67,7 +67,7 @@ const Results = () => {
           {/* Resource Buttons */}
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mb-8">
             <button
-              onClick={() => openExternalLink('https://drive.google.com/file/d/1PPF0zMz8FGqFF_jRmEPmILRxlOhkdiJN/view?usp=sharing')}
+              onClick={() => openExternalLink('https://purple-word-60a.notion.site/What-is-a-Preliminary-Assessment-20722c20b53280efadd9f330677dae65')}
               className="bg-gradient-to-r from-blue-500 to-blue-600 text-white p-4 rounded-xl hover:shadow-lg transform hover:-translate-y-1 transition-all duration-300 text-center"
             >
               <div className="text-lg font-medium mb-2">📄 What is Preliminary Assessment</div>
@@ -75,7 +75,7 @@ const Results = () => {
             </button>
 
             <button
-              onClick={() => openExternalLink('https://drive.google.com/file/d/1pyBkh8fzIsgaAwp7Fk5RT0FDP5KoTC7f/view?usp=sharing')}
+              onClick={() => openExternalLink('https://purple-word-60a.notion.site/Voices-of-Children-in-Conflict-with-Law-20722c20b53280f38fbee04a81de1fe1?source=copy_link')}
               className="bg-gradient-to-r from-purple-500 to-purple-600 text-white p-4 rounded-xl hover:shadow-lg transform hover:-translate-y-1 transition-all duration-300 text-center"
             >
               <div className="text-lg font-medium mb-2">🗣️ Read Voices of CICL</div>
@@ -83,7 +83,7 @@ const Results = () => {
             </button>
 
             <button
-              onClick={() => openExternalLink('https://drive.google.com/file/d/1JVfwOKMmFIRG6xbKaQf9ExKChZ2nsT-G/view?usp=sharing')}
+              onClick={() => openExternalLink('https://purple-word-60a.notion.site/Nonda-Manasu-A-Wounded-Heart-20722c20b53280fe90aedfa60de08694?source=copy_link')}
               className="bg-gradient-to-r from-green-500 to-green-600 text-white p-4 rounded-xl hover:shadow-lg transform hover:-translate-y-1 transition-all duration-300 text-center"
             >
               <div className="text-lg font-medium mb-2">📋 G's Testimony on JJ Bill</div>
