@@ -1,3 +1,4 @@
+
 import { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 
@@ -22,7 +23,8 @@ const Results = () => {
       <div className="max-w-4xl mx-auto bg-white rounded-2xl shadow-2xl overflow-hidden">
         <div className="bg-gradient-to-r from-slate-800 to-slate-700 text-white p-8 text-center">
           <h1 className="text-4xl font-light mb-2">Juvenile Justice Interactive Scenario</h1>
-          <p className="text-lg opacity-90 italic">Assessment Results by Enfold Proactive Health Trust</p>
+          <p className="text-lg opacity-90 italic">Assessment Results</p>
+          <p className="text-lg opacity-90 italic">by Enfold Proactive Health Trust (Beta Version)</p>
         </div>
 
         <div className="p-10">

@@ -1,3 +1,4 @@
+
 import { useNavigate } from 'react-router-dom';
 
 const SystemicIssues = () => {
@@ -52,6 +53,7 @@ const SystemicIssues = () => {
         <div className="bg-gradient-to-r from-slate-800 to-slate-700 text-white p-4 sm:p-8 text-center">
           <h1 className="text-2xl sm:text-4xl font-light mb-2">⚖️ Systemic Issues in Section 15 Preliminary Assessment</h1>
           <p className="text-base sm:text-lg opacity-90 italic">Critical Problems with the Current System</p>
+          <p className="text-base sm:text-lg opacity-90 italic">by Enfold Proactive Health Trust (Beta Version)</p>
         </div>
 
         <div className="p-4 sm:p-10">
